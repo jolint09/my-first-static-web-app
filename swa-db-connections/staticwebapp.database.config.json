@@ -30,7 +30,16 @@
   },
   "entities": {
     "InclusionMetrics": {
-      "source": "dbo.InclusionMetrics",
+      "source": "dbo.InclusionScores",
+      "permissions": [
+        {
+          "actions": ["read"],
+          "role": "anonymous"
+        }
+      ]
+    },
+    "DemographicsMetrics": {
+      "source": "dbo.DemographicTimeline",
       "permissions": [
         {
           "actions": ["create", "read", "update", "delete"],
@@ -38,8 +47,8 @@
         }
       ]
     },
-    "DemographicsMetrics": {
-      "source": "dbo.DemographicsMetrics",
+      "DemographicsMetrics": {
+      "source": "dbo.DemographicInclusionMetrics",
       "permissions": [
         {
           "actions": ["create", "read", "update", "delete"],
