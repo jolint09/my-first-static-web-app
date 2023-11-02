@@ -38,7 +38,7 @@
         }
       ]
     },
-    "DemographicsMetrics": {
+    "DemographicTimeline": {
       "source": "dbo.DemographicTimeline",
       "permissions": [
         {
@@ -47,7 +47,7 @@
         }
       ]
     },
-      "DemographicsMetrics": {
+      "DemographicInclusionMetrics": {
       "source": "dbo.DemographicInclusionMetrics",
       "permissions": [
         {
