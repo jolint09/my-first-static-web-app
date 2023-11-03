@@ -39,7 +39,7 @@
       ]
     },
     "DemographicTimeline": {
-      "source": "dbo.DemographicTimeline",
+      "source": "dbo.NewHiresTimeline",
       "permissions": [
         {
           "actions": ["create", "read", "update", "delete"],
